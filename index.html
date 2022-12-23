@@ -391,30 +391,37 @@
         <button class="close-modal" data-modal-close>✕</button>
         <h4 class="modal-title">Залиште свої дані, ми вам передзвонимо</h4>
         <form class="modal-form">
-          <label for="name" class="modal-label" id="name"> Ім'я </label>
-          <div class="thumb-form">
-            <input class="modal-input" type="name" name="name" />
+          <label class="modal-field"
+            ><span class="label-text"> Ім'я</span>
+
+            <input class="modal-input" type="text" name="name" />
             <svg class="icon-form">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
-          </div>
-          <label for="tel" class="modal-label"> Телефон </label>
-          <div class="thumb-form">
+          </label>
+
+          <label class="modal-field">
+            <span class="label-text"> Телефон</span>
             <input class="modal-input" type="tel" name="tel" />
             <svg class="icon-form">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
-          </div>
-          <label for="email" class="modal-label"> Пошта </label>
-          <div class="thumb-form">
+          </label>
+
+          <label class="modal-field">
+            <span class="label-text"> Пошта</span>
             <input class="modal-input" type="email" name="email" />
             <svg class="icon-form">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
-          </div>
-          <label for="comment" class="modal-label"> Коментар </label>
-          <textarea class="textarea" name="feedback" rows="7" placeholder="Введіть текст">
-          </textarea>
+          </label>
+
+          <label class="modal-field">
+            <span class="label-text"> Коментар </span>
+            <textarea class="textarea" name="feedback" rows="7" placeholder="Введіть текст">
+            </textarea>
+          </label>
+
           <label class="checkbox-label">
             <input class="checkbox" type="checkbox" value="agree" />
             <span class="check-icon"></span>
